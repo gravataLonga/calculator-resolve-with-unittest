@@ -1,0 +1,39 @@
+
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+// Variables
+@import "variables";
+
+.top200 {
+	margin-top: 200px;
+}
+
+// Namespace.
+#calculator {
+
+	.btn-calc {
+		min-width: 130px;
+	    margin-top: 10px;
+	    margin-right: 8px;
+
+	    &:last-child {
+	    	margin-right: 0px;
+	    }
+		
+		&.full {
+			width: 100%;
+		}
+	}
+
+	.screen {
+		margin-bottom: 20px;
+	    height: 50px;
+	    width: 100%;
+	}
+
+	
+}
+
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
