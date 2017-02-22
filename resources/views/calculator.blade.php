@@ -101,6 +101,7 @@
 
 						if (rxp.error) {
 							alert("An error occour");
+							$screen.val("ERRO");
 						} else if(rxp.result) {
 							$screen.val(rxp.result);
 							$calculator.attr('data-state', 'operator');
